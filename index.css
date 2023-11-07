@@ -1,0 +1,48 @@
+:root {
+    --color-siagie: #00652e;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(96, 96, 96);
+    display: flex;
+}
+
+.container{
+    display: flex;
+    
+    height: 100vh;
+
+}
+
+
+.left-content{
+    background-color: #e2e0e0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main-content{
+    background-color: white;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.row-avatar{
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    width: 200px;
+    height: 170px;
+    border-radius: 100px;
+}
